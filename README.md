@@ -17,6 +17,10 @@ This Azure Function receives motivational text (generated from LLM) and converts
   "voice": "en-US-JennyNeural"
 }
 
+
+
+
+
 ## 🔁 Output
 Returns confirmation:
 Audio generated: /tmp/audio_00_30_00.wav
