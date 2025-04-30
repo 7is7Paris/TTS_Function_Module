@@ -16,38 +16,3 @@ This Azure Function receives motivational text (generated from LLM) and converts
   "timestamp": "00_30_00",
   "voice": "en-US-JennyNeural"
 }
-
-##  🔁 Output
-Returns confirmation:
-Audio generated: /tmp/audio_00_30_00.wav
-
-## 📦 Requirements
-Install dependencies with:
-pip install -r requirements.txt
-
-## ▶️ Local Run
-Make sure your local.settings.json contains your Azure Speech key and region:
-"AZURE_SPEECH_KEY": "xxx",
-"AZURE_SPEECH_REGION": "eastus"
-Then start the function:
-func start
-
-## ☁️ Deployment
-Use Azure CLI:
-func azure functionapp publish <your-function-app-name>
-
-## 📁 Files Description
-| File | Purpose |
-|------|---------|
-| `tts_module/function_app.py` | Core function logic |
-| `requirements.txt` | Python dependencies |
-| `local.settings.json` | Local environment config (excluded from Git) |
-| `.gitignore` | Files to exclude from GitHub |
-| `host.json` | Azure Function host config |
-| `README.md` | This file |
-
-## ✨ Team Note
-This module will integrate with other agents:
-LLM Agent: breaks down goal & generates motivational sentences
-Frontend Agent: collects user input & plays audio from TTS
-You: the dreamer that needs encouragement 😉
