@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AZURE_SPEECH_KEY": "your_azure_speech_key_here",
+    "AZURE_SPEECH_REGION": "your_azure_region_here"
+  }
+}
