@@ -1,0 +1,8 @@
+tts_function_project/
+│
+├── function_app.py          # 主函数逻辑：从 JSON 接收文本 → 调用 Azure TTS → 存储音频
+├── requirements.txt         # 列出所需的 Python 库（如 azure-cognitiveservices-speech）
+├── host.json                # Azure Function 配置文件
+├── .gitignore               # 忽略文件（建议加）
+├── local.settings.json      # 本地运行时的配置（不上传 GitHub）
+└── README.md                # 项目说明（你可以稍后完善）
